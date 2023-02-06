@@ -9,6 +9,15 @@ body {
     width: 50px;
 }
 
+.nav > a {
+    color: black;
+    padding-left: 20px;
+}
+
+a:hover {
+    color: turquoise;
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -21,6 +30,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
